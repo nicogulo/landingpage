@@ -1,0 +1,195 @@
+body{
+  font-family: 'Inter', sans-serif;
+
+}
+
+/* navbar */
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-link {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+
+/* section */
+.tittle{
+position: absolute;
+left: 274px;
+top: 150px;
+
+/* Caption/Inter/medium */
+
+font-family: Inter;
+font-style: normal;
+font-size: 20px;
+/* or 31px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.11em;
+text-transform: uppercase;
+
+/* Grey */
+
+color: #B3ACA2;
+}
+.ptittle{
+  position: absolute;
+  left: 271px;
+  top: 200px;
+  
+  /* Title / H1 */
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 110%;
+  /* or 92px */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.045em;
+  
+  /* Black */
+  
+  color: #23242A;
+}
+
+.btnget{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px 41px;
+  
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  left: 271px;
+  top: 420px;
+  
+  /* Primary */
+  
+  background: #0E6FFF;
+  border-radius: 8px;
+}
+.btnget h5{
+
+width: 170px;
+height: 36px;
+padding-top: auto;
+
+/* H5/Inter/bold */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 36px */
+
+/* White */
+
+color: #FFFFFF;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+.review {
+  position: absolute;
+width: 612px;
+height: 94px;
+left: 271px;
+bottom :30px;
+
+/* H4/Inter/medium */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 110%;
+/* or 48px */
+
+letter-spacing: -0.03em;
+
+/* Black */
+
+color: #23242A;
+}
+
+.ceoview{
+  position: absolute;
+  width: 81.51px;
+  height: 85px;
+  left: 271px;
+  bottom: 5px;
+}
+
+.ceoview .ceoname{
+  position: absolute;
+width: 303.01px;
+height: 37px;
+left: 100px;
+top: 5px;
+
+/* Text / Subtitle */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 120%;
+/* or 36px */
+
+letter-spacing: -0.03em;
+
+/* Black */
+
+color: #23242A;
+}
+
+.ceoview .ceotittle{
+  position: absolute;
+width: 303.01px;
+height: 29px;
+left: 100px;
+top: 40px;
+
+/* Text / Medium Text */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+letter-spacing: -0.02em;
+
+/* Black */
+
+color: #23242A;
+}
+
+.slider{
+position: absolute;
+width: 600px;
+
+left: 600px;
+top: 235px;
+}
